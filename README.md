@@ -22,6 +22,13 @@ how work?
 5) make a pdf with pngs,
 6) analyze it with ocr, extract the text
 7) process the 3 summaries with ollama (llama3) and generate a final report.
+   If you have a preferred model in ollama, you can replace it (llama3) in the analyze video file with ia9_fix_Short_.py
+   
+You must download the file
+https://www.mediafire.com/file/n85ny8eis0x2dwr/unpack_in_folder_models_from_moondream.zip/file
+
+and unzip it into the same folder as the project
+This file contains a key model to analyze images from Moondream, without that it will only use Whisper, and it will give an error in that part of the process, without the OCR tools, it will not be able to analyze for texts either.
 
 conda create -n videoanalizer python=3.10 pip -y
 conda activate videoanalizer
