@@ -51,6 +51,24 @@ pip install -r requirements2.txt
 pip install -r requirements3.txt
 
 
+python "analizar video con ia9_fix_Short_.py"
+
+The input video must be named video.mp4
+
+You can look in the frames folder, once the whisper is finished, 
+which is usually fast with cuda, and there you can see how many frames it captured,
+and based on that estimate how long it will take to finish.
+
+as a final result there will be a video.txt file that will have the summary of whisper, a log.json 
+file that will have the information of what you saw with moondream, a frames folder with the selected images in png,
+depending on how many frames ffmpeg skips these can be more or less, but it will still take longer to process them,
+a my_pdf.pdf file with the images, an adocr.pdf file with the ocr of the texts if there were any, an ocrmy_pdf.txt
+file with the text, and a summary_final.txt file, with the summary in Spanish, I suppose that by changing the prompt,
+you can expect a response from ollama in any language,
+
+
+
+
 Based on the provided Python scripts, here's a list of the required Python packages:
 
     torch: For deep learning and tensor operations (used by Moondream).
