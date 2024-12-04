@@ -27,6 +27,14 @@ how work?
 You must download the file
 https://www.mediafire.com/file/n85ny8eis0x2dwr/unpack_in_folder_models_from_moondream.zip/file
 
+video example from Dotcsv
+China LIBERA SU VERSIÓN OPEN SOURCE de o1 ¿Está OPENAI en RIESGO? | QwQ
+https://www.youtube.com/watch?v=Jowgm934rvg
+
+Example results:
+https://www.mediafire.com/file/f1af14tkrx8n4kw/analiza_video%25282%2529.zip/file
+
+
 and unzip it into the same folder as the project
 This file contains a key model to analyze images from Moondream, without that it will only use Whisper, and it will give an error in that part of the process, without the OCR tools, it will not be able to analyze for texts either.
 
